@@ -5,15 +5,6 @@ import requests
 import os
 import sys
 
-http_proxy  = "http://alfran.ali:lmalftanso@202.141.80.24:3128"
-https_proxy = "https://alfran.ali:lmalftanso@202.141.80.24:3128"
-ftp_proxy   = "ftp://alfran.ali:lmalftanso@202.141.80.24:3128"
-
-proxyDict = { 
-              "http"  : http_proxy, 
-              "https" : https_proxy, 
-              "ftp"   : ftp_proxy
-            }
 def Close_func():
     gui.destroy()
 
